@@ -1,0 +1,28 @@
+{
+    "servers": [
+        {
+            "name": "server1",
+            "port": 8080,
+            "next" : 8081,
+            "prev" :8084
+        },
+        {
+            "name": "server2",
+            "port": 8081,
+            "next" : 8082,
+            "prev" :8080
+        },
+        {
+            "name": "server3",
+            "port": 8082,
+            "next" : 8083,
+            "prev" :8082
+        },
+        {
+            "name": "server4",
+            "port": 8083,
+            "next" : 8080,
+            "prev" :8083
+        }
+    ]
+}
